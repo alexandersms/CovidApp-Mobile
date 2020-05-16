@@ -2,9 +2,9 @@ import React from "react";
 import { Image, TouchableOpacity } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import MainScreen from "../../containers/screens/MainScreen";
-import CountryScreen from "../../containers/screens/CountryScreen";
 import color from "../constant/color";
 import { Ionicons } from "@expo/vector-icons";
+import FranceCase from "../../containers/screens/FranceCase";
 
 const Stack = createStackNavigator();
 
@@ -44,7 +44,7 @@ const MainStack = () => {
       />
       <Stack.Screen
         name="FranceCase"
-        component={CountryScreen}
+        component={FranceCase}
         options={{
           title: "France",
         }}
