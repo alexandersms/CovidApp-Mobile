@@ -17,7 +17,7 @@ const CardInfoGrid: FC<Props> = ({ status, value, color }) => {
         backgroundColor: color,
         borderRadius: 6,
         padding: 10,
-        margin: 4,
+        margin: 2,
       }}
     >
       <Text style={{ fontSize: 14, fontWeight: "bold", color: "black" }}>
@@ -31,7 +31,7 @@ const CardInfoGrid: FC<Props> = ({ status, value, color }) => {
 
 const styles = StyleSheet.create({
   caseNumber: {
-    fontSize: 24,
+    fontSize: 18,
     color: color.white,
     fontWeight: "bold",
   },

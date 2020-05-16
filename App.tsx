@@ -1,12 +1,12 @@
 import React from "react";
-import { StyleSheet, Platform, SafeAreaView } from "react-native";
+import { StyleSheet, Platform, View } from "react-native";
 import RootNavigation from "./src/config/navigation";
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <RootNavigation />
-    </SafeAreaView>
+    </View>
   );
 }
 
